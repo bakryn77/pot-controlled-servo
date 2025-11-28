@@ -10,19 +10,20 @@ Using the Servo library
 Basic hardware interaction between a sensor and an actuator
 
 **Components Used:
-Arduino Uno (or any Arduino-compatible board)
+Arduino Uno 
 SG90 micro servo
 10k potentiometer
 Jumper wires
 Breadboard
 USB cable
 
-**Circuit Diagram:
-Potentiometer
+-Circuit Diagram-
+Potentiometer:
 One outer pin to 5V
 Other outer pin to GND
 Middle pin to A1
-Servo
+
+Servo:
 Brown/Black wire → GND
 Red wire → 5V
 Orange/Yellow wire → Digital pin 9
@@ -31,4 +32,4 @@ Orange/Yellow wire → Digital pin 9
 Potentiometer center pin → A1
 Servo signal wire → D9
 All grounds connected together
-Servo powered from 5V and GND on Arduino
+Servo powered from 5V and GND from Arduino but connected to rails
